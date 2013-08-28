@@ -1,3 +1,36 @@
 geocache.iml
 .idea/
 target
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+bin/
+target/
+out/
+dist/
+
+##############
+# eclipse #
+##############
+.project
+.metadata
+.classpath
+.settings/
+bin/**
+*.tmp
+*.bak
+*.swp
+
+#############
+# intelliJ #
+##############
+.idea
+*.ipr
+*.iml
+.settings
