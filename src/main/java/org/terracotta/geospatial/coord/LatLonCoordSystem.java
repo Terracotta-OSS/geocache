@@ -15,7 +15,7 @@ public class LatLonCoordSystem implements CoordinateSystem {
     final QuadTree westQT = new QuadTree(westEnv, 32);
 
     final Envelope2D eastEnv = new Envelope2D(0.0, -180.0, 180.0, 180.0);
-    final QuadTree eastQT = new QuadTree(westEnv, 32);
+    final QuadTree eastQT = new QuadTree(eastEnv, 32);
 
     @Override
     public long computeGeoHash(Coordinate coord) {
